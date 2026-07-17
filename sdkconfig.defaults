@@ -1,0 +1,44 @@
+# This file was generated using idf.py save-defconfig or menuconfig [D] key. It can be edited manually.
+# Espressif IoT Development Framework (ESP-IDF) 6.0.2 Project Minimal Configuration
+#
+# default:
+CONFIG_IDF_TARGET="esp32c3"
+
+#
+# Serial flasher config
+#
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+# end of Serial flasher config
+
+#
+# Component config
+#
+
+#
+# ESP PSRAM
+#
+
+#
+# ESP-STDIO
+#
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y
+# end of ESP-STDIO
+
+#
+# ESP System Settings
+#
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80=y
+# end of ESP System Settings
+
+#
+# FreeRTOS
+#
+
+#
+# Kernel
+#
+CONFIG_FREERTOS_HZ=200
+# end of Kernel
+# end of FreeRTOS
+# end of ESP PSRAM
